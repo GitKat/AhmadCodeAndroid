@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ahmad.programming4u" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.ahmad.programming4u.ListLanguage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".C" />
+        <activity android:name=".Cplusplus" />
+        <activity android:name=".Javaa" />
+        <activity android:name=".Cdisplay" />
+        <activity android:name=".ShowCAssignmentCode" />
+        <activity android:name=".ShowCNumberCode" />
+        <activity android:name=".ShowCSortingCode" />
+        <activity android:name=".ShowCMatrixCode" />
+        <activity android:name=".ShowCArrayCode" />
+        <activity android:name=".ShowCSwappingCode" />
+        <activity android:name=".ShowCStringCode" />
+        <activity android:name=".ShowCConversionCode" />
+        <activity android:name=".ShowCComplexCode" />
+        <activity android:name=".ShowCLcmCode" />
+        <activity android:name=".ShowCSearchingCode" />
+        <activity android:name=".ShowCGamesCode" />
+        <activity android:name=".ShowCProjectCode" />
+        <activity android:name=".dataStructure" />
+        <activity android:name=".ShowDataStructureCode" />
+        <activity android:name=".oop" />
+        <activity android:name=".ShowOopCode" />
+        <activity android:name=".ShowJavaCode" />
+        <activity android:name=".J" />
+    </application>
+
+</manifest>
